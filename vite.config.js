@@ -10,8 +10,9 @@ export default defineConfig({
 
     VitePWA({
       registerType: 'autoUpdate',
-
-      manifest: {
+      filename: 'pwa-sw.js',
+      
+       manifest: {
         name: 'MyNameLab',
         short_name: 'MyNameLab',
         description: 'Find a name worth keeping.',
