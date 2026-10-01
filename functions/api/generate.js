@@ -1,6 +1,8 @@
 import { GoogleGenAI } from '@google/genai'
 
 export async function onRequestPost(context) {
+  console.log("GEMINI KEY EXISTS:", Boolean(context.env.GEMINI_API_KEY))
+
   try {
     const body = await context.request.json()
 
