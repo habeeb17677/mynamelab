@@ -1,6 +1,14 @@
+
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Monetag Push Notifications -->
+    <script
+      src="https://5gvci.com/act/files/tag.min.js?z=11989568"
+      data-cfasync="false"
+      async
+    ></script>
+
     <meta charset="UTF-8" />
 
     <!-- Favicon -->
@@ -23,8 +31,11 @@
       content="MyNameLab — Find a name worth keeping."
     />
 
-    <meta name="monetag" content="382f2d4e465ada4fad2ace0deae9974d">
-    <script src="https://5gvci.com/act/files/tag.min.js?z=11985325" data-cfasync="false" async></script>
+    <!-- Existing Monetag site verification -->
+    <meta
+      name="monetag"
+      content="382f2d4e465ada4fad2ace0deae9974d"
+    />
 
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -35,14 +46,10 @@
     <meta name="apple-mobile-web-app-title" content="MyNameLab" />
 
     <title>MyNameLab — Find a name worth keeping.</title>
-
-     <!-- Monetag -->
-    
   </head>
 
   <body>
     <div id="root"></div>
-
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
